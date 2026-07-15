@@ -1,4 +1,4 @@
-#for (variable in range()/collection_datatypes, collection_object):
+#Syntax: for (variable in range()/collection_datatypes, collection_object):
 l=[1,'Money',3.5,True]
 for i in l:
     print(f'{i} : {type(i)}')
