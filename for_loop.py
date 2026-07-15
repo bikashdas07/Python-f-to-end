@@ -31,3 +31,13 @@ ans=''
 for ch in s:
     ans=ch+ans
 print(ans)
+
+#Palindrome
+s='malayalam'
+ans=''
+for ch in s:
+    ans=ch+ans
+if(s==ans):
+    print('Palindrome')
+else:
+    print('Not Palindrome')
