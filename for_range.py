@@ -32,12 +32,11 @@ print(f'Sum of first {n_input} namtural numbers is {res}')
 
 #Printing average of the sum of the given natural numbers(i).
 i=3
-sum=0
+ans=0
 count=0
 for n in range(1,i+1):
-    a=s+n
-    count+=1
-print(f'Average of first {i} natural numbers is {a/i}')
+    ans=ans+n
+print(f'Average of first {i} natural numbers is {ans/i}')
 
 
 #Printing the factorial of a given number.

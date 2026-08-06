@@ -1,12 +1,12 @@
 #Syntax: for (variable in range()/collection_datatypes, collection_object):
-l=[1,'Money',3.5,True]
-for i in l:
+li=[1,'Money',3.5,True]
+for i in li:
     print(f'{i} : {type(i)}')
 
 t=(10,'Messi', True, (3+4j))
 for j in t:
     print(f'{j} : {type(j)}')
- 
+
 s={12,34,(56,78)}    
 for keys in s:
     print(f'{keys} : {type(keys)}')
@@ -36,7 +36,7 @@ for ch in s:
     ans=ch+ans
 print(ans)
 
-#Palindrome
+#String Palindrome
 s='malayalam'
 ans=''
 for ch in s:

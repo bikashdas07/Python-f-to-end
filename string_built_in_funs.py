@@ -1,0 +1,23 @@
+#count()
+#variable_name.count('sub_string')
+#variable_name.count('sub_string',starting_index)
+#variable_name.count('sub_string',starting_index,ending_index)
+var='abcdabcdabcd'
+print(var.count(''))
+print(var.count(' '))
+print(var.count('a'))
+print(var.count('bc',1))
+print(var.count('c',2,6))
+print(var.count('cd',-6,12))
+print(var.count('',-7))
+#split()
+#variable_name.split()=variable_name.split(' ')
+#variable_name.count('sub_string')
+#variable_name.count('sub_string',no._of_splits)
+var1='Hello Bye World'
+print(var1.count(''))
+print(var1.count('o'))
+print(var1.split('ll'))
+print(var1.split('l',2))
+print(var1.split('l',10))
+
