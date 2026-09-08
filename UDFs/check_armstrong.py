@@ -1,3 +1,4 @@
+#0,1,153,370,371,407,1634
 def check_armstrong(num:int) -> bool:
     l=len(str(num))
     dup=num
