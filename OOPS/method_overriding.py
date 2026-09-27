@@ -4,7 +4,6 @@ class A:
         print('Parent class method 1')
     def M2(self):
         print('Parent class method 2')
-
 class B(A):
     def M2(self):
         print('Child class method 2')

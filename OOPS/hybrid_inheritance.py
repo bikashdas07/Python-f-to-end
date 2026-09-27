@@ -41,5 +41,5 @@ class F(D,E):
     def obm1(self):
         print('child F method') 
 ob=F()
-ob.obm1() #Method Resolution Order - MRO. It will call the method of class D because it is the first parent class in the inheritance list.
+ob.obm1() #Method Resolution Order - MRO. It will call the method of class F, it overrides the method of class D and E.
 print(F.mro())
